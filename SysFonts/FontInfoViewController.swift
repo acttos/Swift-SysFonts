@@ -29,7 +29,7 @@ class FontInfoViewController: UIViewController {
             + "\nABCDEFGHIJKLMNOPQRSTUVWXYZ";
         fontSizeSlider.value = Float(font.pointSize);
         fontSizeLabel.text = "\(Int(font.pointSize))";
-        favoriteSwitch.on = favorited;
+        favoriteSwitch.isOn = favorited;
         
     }
 
@@ -39,20 +39,20 @@ class FontInfoViewController: UIViewController {
     }
     
     //MARK: - IBAction Methods
-    @IBAction func slideFontSize(slider:UISlider) {
-        let newSize = roundf(slider.value);
-        fontSampleLabel.font = font.fontWithSize(CGFloat(newSize));
+    @IBAction func slideFontSize(_ sender: UISlider) {
+        let newSize = roundf(sender.value);
+        fontSampleLabel.font = font.withSize(CGFloat(newSize));
         fontSizeLabel.text = "\(Int(newSize))";
-        
     }
+    
     
     @IBAction func toggleFavorite(sender:UISwitch) {
         let favoritesList = FavoritesList.sharedInstance();
         
-        if sender.on {
-            favoritesList.addFavorite(font.fontName);
+        if sender.isOn {
+            favoritesList.addFavorite(fontName: font.fontName);
         } else {
-            favoritesList.removeFavorite(font.fontName);
+            favoritesList.removeFavorite(fontName: font.fontName);
         }
     }
 
