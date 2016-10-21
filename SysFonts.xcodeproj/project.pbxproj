@@ -110,17 +110,11 @@
 		7D3BF1801BCE2CC2009FCC8F /* SysFonts */ = {
 			isa = PBXGroup;
 			children = (
+				7DD0C3751DB9E936001B3D2C /* Model */,
+				7DD0C3741DB9E913001B3D2C /* Controller */,
 				7D3BF1811BCE2CC2009FCC8F /* AppDelegate.swift */,
 				7D3BF1851BCE2CC2009FCC8F /* Main.storyboard */,
-				7D3BF1881BCE2CC2009FCC8F /* Assets.xcassets */,
-				7D3BF18A1BCE2CC2009FCC8F /* LaunchScreen.storyboard */,
-				7DD0C3711DB9BF9E001B3D2C /* Info.plist */,
-				7D3BF1AF1BCE3458009FCC8F /* FavoritesList.swift */,
-				7D3BF1B11BCE526A009FCC8F /* RootViewController.swift */,
-				7D5CE0131BCF51BF00549464 /* FontListViewController.swift */,
-				7D5CE0151BCF8C5400549464 /* FontSizesViewController.swift */,
-				7D5CE0171BCF959400549464 /* FontInfoViewController.swift */,
-				7DD0C36E1DB9BEBF001B3D2C /* Localizable.strings */,
+				7DD0C3761DB9E967001B3D2C /* Resources */,
 			);
 			path = SysFonts;
 			sourceTree = "<group>";
@@ -141,6 +135,36 @@
 				7D3BF1A31BCE2CC2009FCC8F /* Info.plist */,
 			);
 			path = SysFontsUITests;
+			sourceTree = "<group>";
+		};
+		7DD0C3741DB9E913001B3D2C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7D3BF1B11BCE526A009FCC8F /* RootViewController.swift */,
+				7D5CE0131BCF51BF00549464 /* FontListViewController.swift */,
+				7D5CE0151BCF8C5400549464 /* FontSizesViewController.swift */,
+				7D5CE0171BCF959400549464 /* FontInfoViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7DD0C3751DB9E936001B3D2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D3BF1AF1BCE3458009FCC8F /* FavoritesList.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7DD0C3761DB9E967001B3D2C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7D3BF18A1BCE2CC2009FCC8F /* LaunchScreen.storyboard */,
+				7D3BF1881BCE2CC2009FCC8F /* Assets.xcassets */,
+				7DD0C3711DB9BF9E001B3D2C /* Info.plist */,
+				7DD0C36E1DB9BEBF001B3D2C /* Localizable.strings */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		F770F6100D70B883DE2FFB9D /* Frameworks */ = {
