@@ -49,7 +49,7 @@ class RootViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return section == 0 ? "All Font Families" : "My Favorite Fonts";
+        return section == 0 ? "All Fonts" : "My Favorites";
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -87,11 +87,11 @@ class RootViewController: UITableViewController {
         if indexPath.section == 0 {
             let familyName = familyNames[indexPath.row];
             listVC.fontNames = UIFont.fontNames(forFamilyName: familyName) as [String];
-            listVC.navigationItem.title = "Fonts of '\(familyName)'";
+            listVC.navigationItem.title = familyName;
             listVC.showsFavorites = false;
         } else {
             listVC.fontNames = favoritesList.favorites;
-            listVC.navigationItem.title = "Fonts of Favorites";
+            listVC.navigationItem.title = "Favorites";
             listVC.showsFavorites = true;
         }
         

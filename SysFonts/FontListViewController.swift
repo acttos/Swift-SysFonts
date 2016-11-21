@@ -83,11 +83,11 @@ class FontListViewController: UITableViewController {
         
         if segue.identifier == "ShowFontSizes" {
             let fontSizesVC = segue.destination as! FontSizesViewController;
-            fontSizesVC.title = "Points of \(font.fontName)";
+            fontSizesVC.title = font.fontName;
             fontSizesVC.font = font;
         } else {
             let fontInfoVC = segue.destination as! FontInfoViewController;
-            fontInfoVC.title = "Info of \(font.fontName)";
+            fontInfoVC.title = font.fontName;
             fontInfoVC.font = font;
             fontInfoVC.favorited = FavoritesList.sharedInstance().favorites.contains(font.fontName);
         }
