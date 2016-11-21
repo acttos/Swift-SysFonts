@@ -18,7 +18,6 @@
 		7D5CE0141BCF51BF00549464 /* FontListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CE0131BCF51BF00549464 /* FontListViewController.swift */; };
 		7D5CE0161BCF8C5400549464 /* FontSizesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CE0151BCF8C5400549464 /* FontSizesViewController.swift */; };
 		7D5CE0181BCF959400549464 /* FontInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CE0171BCF959400549464 /* FontInfoViewController.swift */; };
-		7DD0C36C1DB9BEBF001B3D2C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DD0C36E1DB9BEBF001B3D2C /* Localizable.strings */; };
 		7DD0C3721DB9BF9E001B3D2C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DD0C3711DB9BF9E001B3D2C /* Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -56,8 +55,6 @@
 		7D5CE0131BCF51BF00549464 /* FontListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontListViewController.swift; sourceTree = "<group>"; };
 		7D5CE0151BCF8C5400549464 /* FontSizesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontSizesViewController.swift; sourceTree = "<group>"; };
 		7D5CE0171BCF959400549464 /* FontInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontInfoViewController.swift; sourceTree = "<group>"; };
-		7DD0C36D1DB9BEBF001B3D2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
-		7DD0C3701DB9BEE7001B3D2C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7DD0C3711DB9BF9E001B3D2C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -162,7 +159,6 @@
 				7D3BF18A1BCE2CC2009FCC8F /* LaunchScreen.storyboard */,
 				7D3BF1881BCE2CC2009FCC8F /* Assets.xcassets */,
 				7DD0C3711DB9BF9E001B3D2C /* Info.plist */,
-				7DD0C36E1DB9BEBF001B3D2C /* Localizable.strings */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -285,7 +281,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DD0C36C1DB9BEBF001B3D2C /* Localizable.strings in Resources */,
 				7D3BF18C1BCE2CC2009FCC8F /* LaunchScreen.storyboard in Resources */,
 				7D3BF1891BCE2CC2009FCC8F /* Assets.xcassets in Resources */,
 				7DD0C3721DB9BF9E001B3D2C /* Info.plist in Resources */,
@@ -369,15 +364,6 @@
 				7D3BF18B1BCE2CC2009FCC8F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		7DD0C36E1DB9BEBF001B3D2C /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7DD0C36D1DB9BEBF001B3D2C /* Base */,
-				7DD0C3701DB9BEE7001B3D2C /* ar */,
-			);
-			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

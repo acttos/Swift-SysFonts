@@ -23,10 +23,10 @@ class FontInfoViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         fontSampleLabel.font = font;
-        fontSampleLabel.text = "中文字体"
-            + "\n0123456789"
+        fontSampleLabel.text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
             + "\nabcdefghijklmnopqrstuvwxyz"
-            + "\nABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            + "\n0123456789"
+            + "\n中文字体";
         fontSizeSlider.value = Float(font.pointSize);
         fontSizeLabel.text = "\(Int(font.pointSize))";
         favoriteSwitch.isOn = favorited;
