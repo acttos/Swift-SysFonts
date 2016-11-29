@@ -194,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D3BF1A91BCE2CC2009FCC8F /* Build configuration list for PBXNativeTarget "SysFontsTests" */;
 			buildPhases = (
+				E5E5FD7681E2DDF3FFD85DE2 /* [CP] Check Pods Manifest.lock */,
 				7D3BF18E1BCE2CC2009FCC8F /* Sources */,
 				7D3BF18F1BCE2CC2009FCC8F /* Frameworks */,
 				7D3BF1901BCE2CC2009FCC8F /* Resources */,
+				E50F6DDB2285214B5EB5FEB8 /* [CP] Embed Pods Frameworks */,
+				65C6E39AFB5B034A4A1BA96D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D3BF1AC1BCE2CC2009FCC8F /* Build configuration list for PBXNativeTarget "SysFontsUITests" */;
 			buildPhases = (
+				5391FC1F9FDBD5D2D48ADAD8 /* [CP] Check Pods Manifest.lock */,
 				7D3BF1991BCE2CC2009FCC8F /* Sources */,
 				7D3BF19A1BCE2CC2009FCC8F /* Frameworks */,
 				7D3BF19B1BCE2CC2009FCC8F /* Resources */,
+				21ED65652FB11C9049D73E29 /* [CP] Embed Pods Frameworks */,
+				42A026E6922A1780DCFE2302 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -303,6 +309,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21ED65652FB11C9049D73E29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SysFontsUITests/Pods-SysFontsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42A026E6922A1780DCFE2302 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SysFontsUITests/Pods-SysFontsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5391FC1F9FDBD5D2D48ADAD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		65C6E39AFB5B034A4A1BA96D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SysFontsTests/Pods-SysFontsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E50F6DDB2285214B5EB5FEB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SysFontsTests/Pods-SysFontsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5E5FD7681E2DDF3FFD85DE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7D3BF17A1BCE2CC2009FCC8F /* Sources */ = {
@@ -466,11 +565,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: majinshou@gmail.com (2LX58TD834)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SysFonts/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.majinshou.SysFonts;
+				PRODUCT_BUNDLE_IDENTIFIER = org.acttos.SysFonts;
 				PRODUCT_NAME = Fonts;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -481,11 +581,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: majinshou@gmail.com (2LX58TD834)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SysFonts/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.majinshou.SysFonts;
+				PRODUCT_BUNDLE_IDENTIFIER = org.acttos.SysFonts;
 				PRODUCT_NAME = Fonts;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

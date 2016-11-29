@@ -31,6 +31,8 @@ class FontInfoViewController: UIViewController {
         fontSizeLabel.text = "\(Int(font.pointSize))";
         favoriteSwitch.isOn = favorited;
         
+
+        
     }
 
     override func didReceiveMemoryWarning() {
