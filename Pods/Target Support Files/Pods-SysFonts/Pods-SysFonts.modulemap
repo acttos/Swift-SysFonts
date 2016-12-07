@@ -1,0 +1,6 @@
+framework module Pods_SysFonts {
+  umbrella header "Pods-SysFonts-umbrella.h"
+
+  export *
+  module * { export * }
+}

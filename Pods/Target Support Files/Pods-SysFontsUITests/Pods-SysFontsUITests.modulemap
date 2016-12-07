@@ -1,0 +1,6 @@
+framework module Pods_SysFontsUITests {
+  umbrella header "Pods-SysFontsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

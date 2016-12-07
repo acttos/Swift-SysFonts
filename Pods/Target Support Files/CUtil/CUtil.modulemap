@@ -1,0 +1,6 @@
+framework module CUtil {
+  umbrella header "CUtil-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,6 +8,8 @@
 
 import UIKit
 
+import CUtil;
+
 class RootViewController: UITableViewController {
 
     private var familyNames:[String]!;
@@ -32,6 +34,10 @@ class RootViewController: UITableViewController {
         let preferredTableViewFont = UIFont.preferredFont(forTextStyle: UIFontTextStyle.headline);
         cellPointSize = preferredTableViewFont.pointSize;
         favoritesList = FavoritesList.sharedInstance();
+        
+        let encoded:String = CUCode.base64Encode(with: "HelloCUtilInSwift!");
+        print("CUtil's CUCode:\(encoded)");
+        print("CUtil's CUCode:\(CUCode.base64Decode(with: encoded))");
     }
 
     override func viewWillAppear(_ animated: Bool) {

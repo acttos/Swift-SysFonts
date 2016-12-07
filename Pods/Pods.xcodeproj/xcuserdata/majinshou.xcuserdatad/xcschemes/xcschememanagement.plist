@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CUtil.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SysFonts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SysFontsTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SysFontsUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>004031CD193203DC07718E3F88FEEA6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52259009ECAA8F4821D54536ED1CE992</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A21701A971D900CB79BAE375A1BE6A13</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A8BCED12E79441B3F53D12F953077572</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
