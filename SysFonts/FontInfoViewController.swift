@@ -23,7 +23,8 @@ class FontInfoViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         fontSampleLabel.font = font;
-        fontSampleLabel.text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        fontSampleLabel.text = "acttosma@gmail.com"
+            + "\nABCDEFGHIJKLMNOPQRSTUVWXYZ"
             + "\nabcdefghijklmnopqrstuvwxyz"
             + "\n0123456789"
             + "\n中文字体";
