@@ -37,6 +37,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         
     }
+    
+    func application(_ application: UIApplication, handleOpen url: URL) -> Bool {
+        print("URL:\(url)")
+        return true
+    }
 
 }
 

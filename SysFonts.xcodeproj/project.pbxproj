@@ -280,7 +280,7 @@
 				TargetAttributes = {
 					7D3BF17D1BCE2CC2009FCC8F = {
 						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = AXTCK4AA86;
+						DevelopmentTeam = TD37V5LBM9;
 						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
@@ -648,10 +648,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: majinshou@gmail.com (2LX58TD834)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TD37V5LBM9;
 				INFOPLIST_FILE = SysFonts/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.acttos.SysFonts;
+				PRODUCT_BUNDLE_IDENTIFIER = org.acttos.demos.sysfont;
 				PRODUCT_NAME = Fonts;
 				SWIFT_OBJC_BRIDGING_HEADER = "SysFonts/SysFonts-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -668,10 +669,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: majinshou@gmail.com (2LX58TD834)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TD37V5LBM9;
 				INFOPLIST_FILE = SysFonts/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.acttos.SysFonts;
+				PRODUCT_BUNDLE_IDENTIFIER = org.acttos.demos.sysfont;
 				PRODUCT_NAME = Fonts;
 				SWIFT_OBJC_BRIDGING_HEADER = "SysFonts/SysFonts-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
